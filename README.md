@@ -1,44 +1,124 @@
-# Aayush Kumar — Senior Frontend Engineer
 
-**React · TypeScript · Node.js · LLM Tooling · MCP Systems**
+# Aayush Kumar | Senior Software Engineer
 
-Senior Frontend Engineer at **The Economist Group** with 8+ years building scalable SaaS products, UI component systems, and AI-integrated applications. I work across the full stack — from React + TypeScript frontends to Node.js backends and LLM pipelines.
+**Frontend Architecture · React & TypeScript · AI Systems · Full-Stack Engineering**
 
----
+Senior Software Engineer at **The Economist Group**, with 8+ years of experience building scalable digital products, reusable UI systems, and AI-integrated applications.
 
-## What I'm working on
+My work spans frontend architecture, performance engineering, backend services, and local AI. Recently, I've been exploring how to build responsive voice AI systems, integrate LLMs with external tools, and make AI applications more practical on everyday hardware.
 
-| Project | Description | Stack |
-|---|---|---|
-| [linux-mcp-bridge](https://github.com/aayushkumaraks/linux-mcp-bridge) | Web chat interface bridging Ollama LLMs with a remote Linux system via MCP tool-calling. Streaming responses, command execution, real-time polling. | Node.js · React · Express · Ollama |
-| [linux-mcp-redis](https://github.com/aayushkumaraks/linux-mcp-redis) | MCP server using Redis + BullMQ as a persistent job queue for authenticated shell command execution. Deployable on any Linux machine on a local network. | Node.js · Redis · BullMQ · PM2 |
+I enjoy solving engineering problems where performance, modularity, and reliability matter as much as the user experience.
 
 ---
 
-## What I do professionally
+## Current Focus
 
-- **UI systems** — Built and owned a multi-product Storybook component library at The Economist used across multiple product lines
-- **CMS engineering** — Deep integration and migration work with Contentful, Drupal, and WordPress at scale
-- **LLM/AI** — Contributed to a Llama-3 based editorial system: data curation, prompt engineering, RAG pipeline evaluation
-- **Performance** — High-throughput data table rendering (AG Grid, 100K+ rows), keep-alive middleware, rendering optimisation
-- **Mentoring** — Code reviews, architecture discussions, and onboarding at Infosys and The Economist
+- **Frontend engineering:** React, Next.js, TypeScript, component architecture, and performance optimization.
+- **Local AI & voice systems:** Streaming speech recognition, local LLM inference, text-to-speech, and low-latency conversational pipelines.
+- **LLM tool integration:** Model Context Protocol (MCP), context-aware tool selection, and reliable tool execution.
+- **Backend & infrastructure:** Node.js, Python, APIs, Docker, and deployment architecture.
+- **Engineering quality:** Modular design, automated testing, observability, and measurable performance improvements.
 
 ---
 
-## Tech
+## Featured Projects
 
-```
-Frontend   React · Next.js · TypeScript · Redux · Storybook · HTML5 · CSS3 · SASS
-Backend    Node.js · FastAPI · GraphQL · REST APIs · PostgreSQL · MongoDB
-AI / LLM   Ollama · MCP protocol · RAG pipelines · Prompt engineering · Llama-3
-DevOps     AWS · Docker · Kubernetes · CI/CD (Jenkins) · Linux
-Testing    Jest · Playwright · Cypress · Mocha
-```
+### [Waffle Audio](https://github.com/aayushkumaraks/waffle-audio)
+
+**An open-source, local-first voice assistant focused on low-latency conversational AI.**
+
+Waffle Audio combines streaming speech recognition, local language-model inference, and neural speech synthesis to reduce the time between a user finishing a thought and hearing a response.
+
+**Highlights**
+- Streaming speech recognition using Moonshine.
+- Local LLM inference through Ollama.
+- Incremental speech synthesis using Pocket TTS and Kokoro.
+- Adaptive clause chunking to begin speaking before the full response is generated.
+- Context-aware tool selection and dynamic tool-context injection.
+- Automated tests and latency benchmarking.
+
+**Upcoming experiments**
+- Emotion-conditioned voice generation with dynamic routing between voice models.
+- Docker-based installation and runtime configuration.
+- More reliable media transport in containerized networking environments.
+
+The emotion-aware voice architecture and containerization work are under active development in open pull requests.
+
+**Stack:** Python · Ollama · Moonshine · Pocket TTS · Kokoro · MCP · FastAPI
+
+### [Linux MCP Bridge](https://github.com/aayushkumaraks/linux-mcp-bridge)
+
+**A bridge between LLM conversations and remote Linux operations.**
+
+Connects an Ollama-powered conversational interface with a remote Linux system through MCP tool calling. The project explores streaming responses, command execution, and interaction with remote infrastructure.
+
+**Stack:** Node.js · React · Express · Ollama · MCP
+
+### [Linux MCP Redis](https://github.com/aayushkumaraks/linux-mcp-redis)
+
+**Persistent job execution for remote Linux command workflows.**
+
+An MCP server that uses Redis and BullMQ to manage authenticated shell-command jobs, with support for deployment on Linux machines within a local network.
+
+**Stack:** Node.js · Redis · BullMQ · PM2 · MCP
+
+---
+
+## Professional Experience
+
+### The Economist Group
+**Frontend Developer 3 | May 2022 – Present**
+
+- Own and deliver end-to-end full-stack features using React, Next.js, TypeScript, and Node.js.
+- Design and maintain scalable frontend architectures, backend services, and API integrations.
+- Manage AWS deployments and CI/CD pipelines, ensuring reliable releases and streamlined delivery workflows.
+- Identify and remediate security vulnerabilities, strengthen application security, and resolve production issues.
+- Drive performance optimization, code quality, and maintainability across applications.
+- Collaborate on technical decisions, architecture, code reviews, and production support.
+
+### Previous Experience
+
+Previously worked at **Infosys, Predera Tech, and uCertify**, contributing to web application development, frontend engineering, and full-stack projects.
+
+---
+
+## Engineering Highlights
+
+- **Design systems:** Component libraries, Storybook, reusable interfaces, and shared UI architecture.
+- **Performance engineering:** Rendering optimization, large-data-table performance, and reducing unnecessary processing.
+- **AI engineering:** LLM integration, retrieval-augmented generation (RAG), prompt engineering, and local inference.
+- **Backend systems:** REST APIs, GraphQL, Node.js services, Python services, concurrent processing, and asynchronous job orchestration.
+- **Quality and reliability:** Automated testing, modular architecture, debugging, and performance profiling.
+
+---
+
+## Technical Skills
+
+| Area | Technologies |
+|---|---|
+| Frontend | React, Next.js, TypeScript, JavaScript, Redux, Storybook, HTML, CSS, Sass |
+| Backend | Node.js, FastAPI, Express, GraphQL, REST APIs |
+| Data | PostgreSQL, MongoDB, Redis |
+| AI & LLM | Ollama, MCP, RAG, prompt engineering, Llama models, streaming inference |
+| Infrastructure | AWS, Docker, Kubernetes, Linux, CI/CD, Jenkins |
+| Testing | Jest, Playwright, Cypress, Mocha, automated testing |
+
+---
+
+## What I Value
+
+- **Performance with evidence:** Measure latency, rendering, and resource usage rather than relying on assumptions.
+- **Modular architecture:** Build components and services that can evolve independently.
+- **Practical AI:** Explore applications that are useful, responsive, and accessible on consumer hardware.
+- **Reliability:** Treat testing, error handling, and operational behavior as part of the engineering design.
+- **Open source:** Share experiments, document trade-offs, and improve systems iteratively.
 
 ---
 
 ## Connect
 
-- LinkedIn: [linkedin.com/in/aayushkumaraks](https://linkedin.com/in/aayushkumaraks)
-- Email: aayushkumar90264@gmail.com
-- Currently based in Gurugram, India — open to relocation globally
+- **LinkedIn:** [linkedin.com/in/aayushkumaraks](https://linkedin.com/in/aayushkumaraks)
+- **GitHub:** [github.com/aayushkumaraks](https://github.com/aayushkumaraks)
+- **Email:** aayushkumar90264@gmail.com
+
+Open to opportunities involving senior frontend engineering, frontend platform architecture, and AI-integrated software engineering, including international relocation opportunities.
